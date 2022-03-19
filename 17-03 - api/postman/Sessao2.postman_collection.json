@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "0023ed1a-b293-4583-a168-e55237058a60",
+		"name": "Sessao2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ranking",
+			"item": [
+				{
+					"name": "ListarParticipantes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorNomeCompleto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscarPorNomeCompleto/ABADIAS%20ILDEGLAN",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscarPorNomeCompleto",
+								"ABADIAS%20ILDEGLAN"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorEstado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscaAvancada/+/SP",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscaAvancada",
+								"+",
+								"SP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorTerminarCom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscaAvancada/%STRING/RT",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscaAvancada",
+								"%STRING",
+								"RT"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorComecarCom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscaAvancada/STRING%/AB",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscaAvancada",
+								"STRING%",
+								"AB"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorContem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscaAvancada/%STRING%/ANA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscaAvancada",
+								"%STRING%",
+								"ANA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OrdenarPorNomeCrescente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscaAvancada/!>/PA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscaAvancada",
+								"!>",
+								"PA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OrdenarPorNomeDecrescente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/ranking/participantes/buscaAvancada/!</PA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"ranking",
+								"participantes",
+								"buscaAvancada",
+								"!<",
+								"PA"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

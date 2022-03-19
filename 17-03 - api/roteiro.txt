@@ -1,0 +1,19 @@
+1 - Session2 - descritivo
+2 - Cálculo de ranking - descritivo
+
+3 - Listar os primeiros 500 participantes em SQL
+4 - Ordenar os participantes por nome em SQL
+5 - Buscar participantes por nome completo em SQL 
+6 - Buscar participantes de um determinado estado com a instrução JOIN em SQL
+7 - Buscar participantes por filtro de string com a instrução LIKE em SQL
+8 - Ordenar participantes por nome ou pontos crescente em SQL
+9 - Ordenar participantes por nome ou pontos descrecente em SQL
+
+10 - LINQ (https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
+11 - Listar os primeiros 500 participantes em C#
+12 - Ordenar participantes por nome em C#
+13 - Buscar participantes por nome completo em C#
+14 - Buscar participantes de um determinado estado em C#
+15 - Buscar participantes por filtro de string em C#
+16 - Ordenar participantes por nome de A - Z em C#
+17 - Ordenar participantes por nome de Z - A em C#
